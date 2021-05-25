@@ -26,7 +26,7 @@ GAME.GameObjectPool.prototype.getObject = function()
 
 GAME.GameObjectPool.prototype.returnObject = function(object)
 {
-	//this.pool.push(object);
+	this.pool.push(object);
 }
 
 
